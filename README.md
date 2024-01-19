@@ -16,4 +16,4 @@ payload:
 另外，發送後有可能會被送至垃圾桶，因此若寄出後沒在收件夾的話，可以到垃圾桶查找。
 
 該專案直接透過 `npm install` 安裝 SendGrid套件即可。
-另外為了隱私安全，因此 SendGrid的 API KEY 將存到 Vercel Server 中。
+另外由於SendGrid為了隱私安全，不允許直接在Code中放入API KEY，因此 SendGrid的 API KEY 將存到 Vercel Server 中。
