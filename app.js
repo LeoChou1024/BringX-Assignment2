@@ -6,7 +6,6 @@ sgMail.setApiKey(process.env.SENDGRID);
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-console.log(process.env.SENDGRID);
 app.get('/', (req, res) => {
   res.send(process.env.SENDGRID);
 });
