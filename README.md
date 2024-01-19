@@ -1,7 +1,9 @@
 # BringX-Assignment2
 
 可以直接透過此 API Endpoint 呼叫： 
+
 POST `https://bring-x-assignment2-9c4wvtca9-leos-projects-3c6c81e5.vercel.app/mail`
+
 payload:
 ```json
 {
